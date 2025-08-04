@@ -1,0 +1,40 @@
+{
+  "name": "render-websocket-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for portfolio console functionality deployed on Render",
+  "main": "render-websocket-server.js",
+  "scripts": {
+    "start": "node render-websocket-server.js",
+    "dev": "nodemon render-websocket-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "console",
+    "portfolio",
+    "render",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio-websocket-server"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/portfolio-websocket-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/portfolio-websocket-server#readme"
+} 
